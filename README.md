@@ -1,6 +1,8 @@
-README pour l'analyse ACP
-Introduction
-Ce code réalise une Analyse en Composantes Principales (ACP) sur le jeu de données Iris, un ensemble classique en apprentissage automatique. Le jeu de données contient des mesures de la longueur et de la largeur des sépales et des pétales pour trois espèces d'Iris : Setosa, Versicolor et Virginica. Les objectifs de ce code sont :
+<h1>Introduction</h1>
+
+Ce code réalise une Analyse en Composantes Principales (ACP) sur le jeu de données Iris, un ensemble classique en apprentissage automatique. Le jeu de données contient des mesures de la longueur et de la largeur des sépales et des pétales pour trois espèces d'Iris : Setosa, Versicolor et Virginica. 
+
+Les objectifs de ce code sont :
 - Effectuer des analyses univariées, bivariées et multivariées sur les données.
 - Standardiser les données et appliquer une ACP pour réduire la dimensionnalité.
 - Visualiser et interpréter les résultats de l'ACP.
@@ -71,7 +73,7 @@ Les bibliothèques suivantes sont importées :
 - Pairplot et boxplots pour l'analyse bivariée.
 - Heatmap pour les corrélations.
 - Scree plot.
-- (Optionnel) Cercle de corrélation pour les contributions des variables.
+- Cercle de corrélation pour les contributions des variables.
 Instructions d'utilisation
 1. Installez les bibliothèques nécessaires avec pip :
    ```bash
@@ -88,5 +90,3 @@ Améliorations potentielles
 - Améliorer la visualisation du cercle de corrélation.
 - Ajouter des modèles de clustering ou de classification en utilisant les dimensions réduites.
 - Fournir des insights supplémentaires sur l'amélioration des tâches avales comme la classification ou la régression grâce à l'ACP.
-Licence
-Ce code est open-source et peut être utilisé à des fins éducatives. Une attribution est appréciée.
